@@ -1,0 +1,25 @@
+[
+  { "name": "Student A", "department": "CSE", "math": 85, "science": 78, "english": 92, "programming": 88, "gpa": 8.6 },
+  { "name": "Student B", "department": "CSE", "math": 72, "science": 85, "english": 76, "programming": 95, "gpa": 8.2 },
+  { "name": "Student C", "department": "CSE", "math": 90, "science": 88, "english": 84, "programming": 91, "gpa": 8.8 },
+  { "name": "Student D", "department": "CSE", "math": 68, "science": 72, "english": 80, "programming": 78, "gpa": 7.5 },
+  { "name": "Student E", "department": "CSE", "math": 95, "science": 92, "english": 88, "programming": 97, "gpa": 9.3 },
+
+  { "name": "Student F", "department": "ECE", "math": 78, "science": 82, "english": 70, "programming": 65, "gpa": 7.4 },
+  { "name": "Student G", "department": "ECE", "math": 82, "science": 90, "english": 75, "programming": 70, "gpa": 7.9 },
+  { "name": "Student H", "department": "ECE", "math": 88, "science": 85, "english": 82, "programming": 72, "gpa": 8.2 },
+  { "name": "Student I", "department": "ECE", "math": 65, "science": 70, "english": 68, "programming": 60, "gpa": 6.6 },
+  { "name": "Student J", "department": "ECE", "math": 92, "science": 95, "english": 85, "programming": 80, "gpa": 8.8 },
+
+  { "name": "Student K", "department": "AI", "math": 94, "science": 88, "english": 90, "programming": 96, "gpa": 9.2 },
+  { "name": "Student L", "department": "AI", "math": 86, "science": 80, "english": 85, "programming": 92, "gpa": 8.6 },
+  { "name": "Student M", "department": "AI", "math": 78, "science": 75, "english": 82, "programming": 88, "gpa": 8.1 },
+  { "name": "Student N", "department": "AI", "math": 91, "science": 93, "english": 87, "programming": 94, "gpa": 9.1 },
+  { "name": "Student O", "department": "AI", "math": 70, "science": 68, "english": 74, "programming": 80, "gpa": 7.3 },
+
+  { "name": "Student P", "department": "ME", "math": 75, "science": 80, "english": 72, "programming": 55, "gpa": 7.1 },
+  { "name": "Student Q", "department": "ME", "math": 80, "science": 85, "english": 68, "programming": 50, "gpa": 7.1 },
+  { "name": "Student R", "department": "ME", "math": 88, "science": 92, "english": 78, "programming": 60, "gpa": 8.0 },
+  { "name": "Student S", "department": "ME", "math": 60, "science": 65, "english": 70, "programming": 45, "gpa": 6.0 },
+  { "name": "Student T", "department": "ME", "math": 72, "science": 78, "english": 75, "programming": 52, "gpa": 6.9 }
+]

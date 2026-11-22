@@ -1,0 +1,267 @@
+/* styles.css - Dashboard Styling */
+/* Author: Annyunaa Gandra (SE24UARI009) */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+/* Navigation Tabs */
+nav#dataset-tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #34495e;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.tab-btn {
+    background-color: transparent;
+    color: #bdc3c7;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.tab-btn:hover {
+    color: #fff;
+    border-color: #3498db;
+}
+
+.tab-btn.active {
+    background-color: #3498db;
+    color: #fff;
+    border-color: #3498db;
+}
+
+/* Main Content */
+main {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Filter Section */
+#filters {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#filters h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.filter-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+}
+
+.filter-group select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.filter-group select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+#apply-filter, #export-btn {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#apply-filter {
+    background-color: #3498db;
+    color: #fff;
+    margin-right: 10px;
+}
+
+#apply-filter:hover {
+    background-color: #2980b9;
+}
+
+#export-btn {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+#export-btn:hover {
+    background-color: #219a52;
+}
+
+/* Chart Container */
+#chart-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 400px;
+}
+
+#mainChart {
+    width: 100% !important;
+    max-height: 450px;
+}
+
+/* Data Summary */
+#data-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#data-summary h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+#summary-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.summary-card {
+    background-color: #ecf0f1;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 150px;
+    flex: 1;
+}
+
+.summary-card h3 {
+    font-size: 13px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.summary-card p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Data Table */
+#data-table-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#data-table-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+#table-container {
+    overflow-x: auto;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+#data-table th {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+#data-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+#data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#data-table tr:hover {
+    background-color: #eaf2f8;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
+
+footer p {
+    margin: 3px 0;
+}
+
+/* Loading State */
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #7f8c8d;
+    font-size: 16px;
+}

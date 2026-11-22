@@ -1,0 +1,12 @@
+{
+  "name": "interactive-data-visualizer",
+  "version": "1.0.0",
+  "description": "Interactive Data Visualization Dashboard - Web Workshop Project 15",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
